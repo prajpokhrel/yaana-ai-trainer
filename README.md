@@ -175,17 +175,6 @@ npm test
 npm run test:ui
 ```
 
-## 🚀 Deployment
-
-### Backend Deployment
-1. Set environment variables
-2. Build the application: `npm start`
-3. Deploy to your preferred hosting service (Heroku, Railway, etc.)
-
-### Frontend Deployment
-1. Build the application: `npm run build`
-2. Deploy the `dist` folder to static hosting (Vercel, Netlify, etc.)
-
 ## 🔧 Environment Variables
 
 ### Backend (.env)
