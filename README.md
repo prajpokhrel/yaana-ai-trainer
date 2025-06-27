@@ -1,11 +1,10 @@
-# Yaana AI Trainer - Full Stack Application
+# Yaana AI Trainer
 
-A professional full-stack application for AI model training and management, built with React (Vite) frontend and Express.js backend.
 
 ## 🏗️ Architecture
 
 - **Frontend**: React 18 + Vite + Modern JavaScript
-- **Backend**: Express.js + Node.js + Professional middleware
+- **Backend**: Express.js + Node.js
 - **Communication**: RESTful API with JSON
 - **Authentication**: JWT-based authentication
 - **Styling**: Custom CSS with utility classes
@@ -85,8 +84,8 @@ The frontend will be running on `http://localhost:5173`
 ### 4. Access the Application
 
 - **Frontend**: http://localhost:5173
-- **Backend API**: http://localhost:5000
-- **Health Check**: http://localhost:5000/health
+- **Backend API**: http://localhost:8848
+- **Health Check**: http://localhost:8848/health
 
 ## 🔧 Development
 
@@ -150,53 +149,6 @@ npm run lint:fix
 ### Health Check
 - `GET /health` - Server health status
 
-## 🎯 Features
-
-### Frontend Features
-- **Modern React 18** with hooks and concurrent features
-- **Vite** for lightning-fast development
-- **React Router** for client-side routing
-- **React Query** for server state management
-- **React Hook Form** for form handling
-- **Responsive Design** with mobile-first approach
-- **Professional UI** with modern styling
-- **Authentication** with protected routes
-- **Toast Notifications** for user feedback
-
-### Backend Features
-- **Express.js** with professional middleware
-- **Security** with Helmet, CORS, and rate limiting
-- **Logging** with Morgan HTTP logger
-- **Compression** for response optimization
-- **Environment Configuration** with dotenv
-- **Error Handling** with global error handler
-- **API Versioning** with RESTful design
-- **Code Quality** with ESLint
-
-## 🔒 Security
-
-### Backend Security
-- **Helmet** - Security headers
-- **CORS** - Cross-origin resource sharing
-- **Rate Limiting** - API rate limiting
-- **Input Validation** - Request validation
-- **Error Handling** - Secure error responses
-
-### Frontend Security
-- **Protected Routes** - Authentication-based routing
-- **Token Management** - Secure JWT token handling
-- **Form Validation** - Client-side validation
-- **CORS Configuration** - Proper cross-origin setup
-
-## 🎨 UI/UX Features
-
-- **Professional Design** - Modern and clean interface
-- **Responsive Layout** - Works on all devices
-- **Interactive Elements** - Hover effects and animations
-- **Loading States** - User feedback during operations
-- **Error Handling** - Graceful error display
-- **Accessibility** - Keyboard navigation and screen reader support
-
 ## 📱 Pages
 
 ### Public Pages
@@ -247,57 +199,12 @@ RATE_LIMIT_MAX_REQUESTS=100
 
 ### Frontend (.env)
 ```env
-VITE_API_URL=http://localhost:5000/api/v1
+VITE_API_URL=http://localhost:8848/api/v1
 ```
 
-## 📝 Development Guidelines
 
-### Code Style
-- Follow ESLint rules
-- Use consistent formatting
-- Write meaningful commit messages
-- Add comments for complex logic
 
-### Git Workflow
-1. Create feature branches
-2. Write tests for new features
-3. Ensure all tests pass
-4. Submit pull requests
 
-### API Design
-- Use RESTful conventions
-- Implement proper error handling
-- Add input validation
-- Document endpoints
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Ensure all tests pass
-6. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🆘 Support
-
-For support and questions:
-- Check the documentation in each directory
-- Review the API endpoints
-- Check the console for errors
-- Ensure both servers are running
-
-## 🔮 Future Enhancements
-
-- Database integration (MongoDB/PostgreSQL)
-- Real-time features with WebSocket
-- File upload functionality
-- Advanced analytics dashboard
-- Team collaboration features
-- Model marketplace
-# yaana-ai-trainer
-Frontend and Backend Servers for Yaana AI Trainer
