@@ -1,0 +1,81 @@
+/* FormShared.css */
+:root {
+  --primary-color: #3b82f6;
+  --primary-color-hover: #2563eb;
+  --error-color: #dc2626;
+  --gray-light: #f9fafb;
+  --gray-border: #d1d5db;
+  --text-color: #374151;
+  --font-family: 'Inter', sans-serif;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--gray-border);
+  border-radius: 0.5rem;
+  background-color: white;
+  font-size: 1rem;
+  transition: border 0.2s, box-shadow 0.2s;
+  font-family: var(--font-family);
+}
+
+.input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+  outline: none;
+}
+
+.input-error {
+  border-color: var(--error-color);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s;
+  border: none;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.btn:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}
+
+.label {
+  font-size: 0.875rem;
+  color: var(--text-color);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.error-text {
+  color: var(--error-color);
+  font-size: 0.875rem;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color-hover);
+  text-decoration: underline;
+}

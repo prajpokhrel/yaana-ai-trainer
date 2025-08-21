@@ -1,0 +1,79 @@
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9fafb;
+  padding: 2rem 1rem;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 28rem;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.register-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.register-logo {
+  background-color: #2563eb;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  margin: 0 auto 1rem auto;
+  user-select: none;
+}
+
+.register-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.register-subtitle {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+input[type='checkbox'] {
+  accent-color: #3b82f6;
+}
+
+.signup-link {
+  text-align: center;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+}
+
+.signup-link .link {
+  color: #2563eb;
+  text-decoration: underline;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.signup-link .link:hover,
+.signup-link .link:focus-visible {
+  color: #1d4ed8;
+  outline: none;
+}

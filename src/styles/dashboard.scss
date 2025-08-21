@@ -1,0 +1,31 @@
+.model-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.progress-container {
+  width: 6rem; // Tailwind w-24
+  height: 0.5rem; // Tailwind h-2
+  background-color: #e5e7eb; // Tailwind bg-gray-200
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: #2563eb; // Tailwind bg-blue-600
+  height: 100%;
+  border-radius: 9999px;
+  width: var(--progress-width, 0%);
+  transition: width 0.3s ease-in-out;
+}
+
+.settings-button {
+  padding: 0.5rem;
+  color: #9ca3af; // Tailwind text-gray-400
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #4b5563; // Tailwind text-gray-600
+  }
+}
